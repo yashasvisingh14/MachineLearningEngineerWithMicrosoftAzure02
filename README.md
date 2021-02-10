@@ -36,7 +36,13 @@ I have created an experiment using Automated ML, configured a compute cluster, a
 ### Consume Model Endpoints
 ![20210211_024551](https://user-images.githubusercontent.com/64837491/107573335-6a634080-6c13-11eb-8082-eb111568caf3.jpg)
 ### Create, Publish and Consume Pipeline
-
+![(25)run](https://user-images.githubusercontent.com/64837491/107573690-dc3b8a00-6c13-11eb-9311-a70339f4b369.png)
+![(27)piperun](https://user-images.githubusercontent.com/64837491/107573762-fbd2b280-6c13-11eb-9cbd-36375df446ba.png)
+![(26)automldataset](https://user-images.githubusercontent.com/64837491/107573878-173dbd80-6c14-11eb-9942-9bb0fe2d2223.png)
+![(27)piperun](https://user-images.githubusercontent.com/64837491/107574169-67b51b00-6c14-11eb-9a0a-87e1a39c2cf9.png)
+![(28)published](https://user-images.githubusercontent.com/64837491/107574242-7dc2db80-6c14-11eb-92ff-5a9ebcb9900c.png)
+![(30)runwidget](https://user-images.githubusercontent.com/64837491/107574321-99c67d00-6c14-11eb-8e9f-1a51525d2525.png)
+![(32)final](https://user-images.githubusercontent.com/64837491/107574424-b367c480-6c14-11eb-86f2-c0676b0dfab9.png)
 
 
 
