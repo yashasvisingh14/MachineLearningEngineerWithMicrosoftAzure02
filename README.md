@@ -25,6 +25,7 @@ I have created an experiment using Automated ML, configured a compute cluster, a
 ![(21)endpt](https://user-images.githubusercontent.com/64837491/107569299-2a4d8f00-6c0e-11eb-9582-6b8c065dc308.png)
 ### Enable Logging
 ![20210211_020526](https://user-images.githubusercontent.com/64837491/107569073-e195d600-6c0d-11eb-9a0e-282aac5b1e05.jpg)
+![20210211_021819](https://user-images.githubusercontent.com/64837491/107570482-94b2ff00-6c0f-11eb-9041-32dfd5c2f0bf.jpg)
 ![(22)insight](https://user-images.githubusercontent.com/64837491/107570099-1a827a80-6c0f-11eb-90fd-6d552afff9d1.png)
 
 
