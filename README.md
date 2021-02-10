@@ -1,8 +1,8 @@
 # Operationalizing Machine Learning
 ## Project Overview
-In this project, I have worked with the Bank Marketing dataset. I have used Azure to configure a cloud-based machine learning production model, deploy it, and consume it. I will also create, publish, and consume a pipeline. I have used all the starter_files for this specific project.
-Dataset - https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv
-The stpes to be followed :-
+In this project, I have worked with the Bank Marketing dataset. I have used Azure to configure a cloud-based machine learning production model, deploy it, and consume it. I will also create, publish, and consume a pipeline. I have used all the starter_files for this specific project. I have created an experiment using Automated ML and retrieved the best model which was VotingEnsemble that had an accuracy of . Then deployed the best model which will allow to interact with the HTTP API service and interact with the model by sending data over POST requests. \
+Dataset - https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv  \
+The steps to be followed :-
 * Authentication
 * Automated ML Experiment
 * Deploy the best model
