@@ -29,6 +29,8 @@ I have created an experiment using Automated ML, configured a compute cluster, a
 ![(22)insight](https://user-images.githubusercontent.com/64837491/107570099-1a827a80-6c0f-11eb-90fd-6d552afff9d1.png)
 ![(10)req](https://user-images.githubusercontent.com/64837491/107570736-f2dfe200-6c0f-11eb-8bcc-ac9806ae0f5d.png)
 ### Swagger Documentation
+![20210211_022819](https://user-images.githubusercontent.com/64837491/107571483-f6279d80-6c10-11eb-91d6-3c0ba171cd9c.jpg)
+
 
 
 
