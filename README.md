@@ -33,6 +33,8 @@ I have created an experiment using Automated ML, configured a compute cluster, a
 ![20210211_022819](https://user-images.githubusercontent.com/64837491/107571483-f6279d80-6c10-11eb-91d6-3c0ba171cd9c.jpg)
 ![20210211_023646](https://user-images.githubusercontent.com/64837491/107572384-3a676d80-6c12-11eb-9809-8d18673ec9ba.jpg)
 ![20210211_023633](https://user-images.githubusercontent.com/64837491/107572356-2e7bab80-6c12-11eb-8f15-f826656d6dab.jpg)
+### Consume Model Endpoints
+
 
 
 
