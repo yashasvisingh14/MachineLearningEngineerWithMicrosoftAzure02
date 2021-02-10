@@ -31,6 +31,8 @@ I have created an experiment using Automated ML, configured a compute cluster, a
 ### Swagger Documentation
 ![(17)swaggerdocs](https://user-images.githubusercontent.com/64837491/107571670-3ab33900-6c11-11eb-92f7-6dc71c4b15fa.png)
 ![20210211_022819](https://user-images.githubusercontent.com/64837491/107571483-f6279d80-6c10-11eb-91d6-3c0ba171cd9c.jpg)
+![(19)api](https://user-images.githubusercontent.com/64837491/107571768-5ae2f800-6c11-11eb-8179-ce143da778cf.png)
+
 
 
 
