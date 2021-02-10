@@ -20,5 +20,6 @@ Below one can get a glimpse of the architectural flow of the whole project :-
 I have created an experiment using Automated ML, configure a compute cluster, and use that cluster to run the experiment.
 ![(1)Dataset](https://user-images.githubusercontent.com/64837491/107563962-b7d9b080-6c07-11eb-9b3a-3c50a0937585.png)
 ![voting](https://user-images.githubusercontent.com/64837491/107564305-3e8e8d80-6c08-11eb-9ecc-b2facde541df.png)
+![voting2](https://user-images.githubusercontent.com/64837491/107564403-5fef7980-6c08-11eb-9c7c-b47cf86833b0.png)
 
 
