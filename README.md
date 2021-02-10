@@ -23,5 +23,8 @@ I have created an experiment using Automated ML, configured a compute cluster, a
 ![voting2](https://user-images.githubusercontent.com/64837491/107564403-5fef7980-6c08-11eb-9c7c-b47cf86833b0.png)
 ### Deploy The Best Model
 
+### Enable Logging
+![20210211_020526](https://user-images.githubusercontent.com/64837491/107569073-e195d600-6c0d-11eb-9a0e-282aac5b1e05.jpg)
+
 
 
