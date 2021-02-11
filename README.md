@@ -40,7 +40,7 @@ In this step, we have consumed the deployed model using Swagger. Azure provides 
 Once the model is deployed, we have uses the endpoint.py script provided to interact with the trained model. The endpoint.py script runs against API producing JSON output(data.json) for model.
 ![20210211_024551](https://user-images.githubusercontent.com/64837491/107573335-6a634080-6c13-11eb-8082-eb111568caf3.jpg)
 ### Create, Publish and Consume Pipeline
-The Jupyter Notebook is uploaded to Azure ML studio and the pipleline has been created. We got a bankmarketing dataset with AutoML module with status completed.
+The Jupyter Notebook is uploaded to Azure ML studio and the pipleline has been created. We got a bankmarketing dataset with AutoML module in graph section. The steps runs was shown by 'Use RunDetails Widget' in the notebook.
 ![(25)run](https://user-images.githubusercontent.com/64837491/107573690-dc3b8a00-6c13-11eb-9311-a70339f4b369.png)
 ![(27)piperun](https://user-images.githubusercontent.com/64837491/107573762-fbd2b280-6c13-11eb-9cbd-36375df446ba.png)
 ![(26)automldataset](https://user-images.githubusercontent.com/64837491/107573878-173dbd80-6c14-11eb-9942-9bb0fe2d2223.png)
