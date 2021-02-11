@@ -51,7 +51,7 @@ The Jupyter Notebook is uploaded to Azure ML studio and the pipleline has been c
 ## Improvements in Future
 For this particular project, I have used certain configuration settings for computer cluster and specific parameters for model given in the lab. By changing certain parameters and settings we can get more effective models resulting in much better accuracy. I believe that we can observe and explore the dataset also to yield better results. The visualization of the model using Application Insights and logs will help in increasing the performance.
 ## ScreenCast
-![MachineLearningEngineerWithMicrosoftAzure02](https://www.youtube.com/watch?v=ygbqysfLBRo&t=7s)
+[MachineLearningEngineerWithMicrosoftAzure02](https://www.youtube.com/watch?v=ygbqysfLBRo&t=7s)
 
 
 
