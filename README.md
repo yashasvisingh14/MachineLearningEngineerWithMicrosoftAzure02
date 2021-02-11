@@ -14,6 +14,7 @@ The steps to be followed :-
 
 ## Architectural Diagram
 Below one can get a glimpse of the architectural flow of the whole project :- 
+![AD](https://user-images.githubusercontent.com/64837491/107640181-ea32ee80-6c97-11eb-8c5a-611818ddd706.jpeg)
 
 ## Steps Involved 
 ### Automated ML Experiment
