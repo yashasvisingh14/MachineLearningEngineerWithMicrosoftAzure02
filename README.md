@@ -33,9 +33,9 @@ After the Best Model is deployed, we have enabled Application Insights(=True) an
 ![20210211_020526](https://user-images.githubusercontent.com/64837491/107569073-e195d600-6c0d-11eb-9a0e-282aac5b1e05.jpg)
 The screenshot below shows the scenario after running logs.py script which was edited to enable "Application Insights" through code.
 ![20210211_021819](https://user-images.githubusercontent.com/64837491/107570482-94b2ff00-6c0f-11eb-9041-32dfd5c2f0bf.jpg)
-In details tab of endpoint "Application Insights" has been enabled with REST endpoint. We can also access Application Insights URL to get more insights of the model.
+In details tab of endpoint "Application Insights" has been enabled with REST endpoint.
 ![(22)insight](https://user-images.githubusercontent.com/64837491/107570099-1a827a80-6c0f-11eb-90fd-6d552afff9d1.png) \
-After clicking the URL, was can see failed requests, server response time , server requests and availability showing data according to the time.
+We can also access Application Insights URL to get more insights of the model.After clicking the URL, was can see failed requests, server response time , server requests and availability showing data according to the time.
 ![(10)req](https://user-images.githubusercontent.com/64837491/107570736-f2dfe200-6c0f-11eb-8bcc-ac9806ae0f5d.png)
 ### Swagger Documentation
 In this step, we have consumed the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models. The swagger runs on localhost:9000 showing the HTTP API methods and responses for the model.
