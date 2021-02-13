@@ -19,8 +19,11 @@ Below one can get a glimpse of the architectural flow of the whole project :-
 ## Steps Involved 
 ### Automated ML Experiment
 I have created an experiment using Automated ML, configured a compute cluster, and used that cluster to run the experiment. The best model summary shows that VotingEnsemble has the highest accuracy of 91.806% compared to others.
-![(1)Dataset](https://user-images.githubusercontent.com/64837491/107563962-b7d9b080-6c07-11eb-9b3a-3c50a0937585.png)
+The screenshot below shows "Registered Dataset" in ML studio showing the Bankmarketing dataset.
+![(1)Dataset](https://user-images.githubusercontent.com/64837491/107563962-b7d9b080-6c07-11eb-9b3a-3c50a0937585.png) 
+This picture below depicts that Details tab where AutoML experiment has been completed. It also has a brief summary of the model which performed well during the run.  
 ![voting](https://user-images.githubusercontent.com/64837491/107564305-3e8e8d80-6c08-11eb-9ecc-b2facde541df.png)
+Here, we can get a detailed description of the best model and various metrics like accuracy, sampling etc.
 ![voting2](https://user-images.githubusercontent.com/64837491/107564403-5fef7980-6c08-11eb-9c7c-b47cf86833b0.png)
 ### Deploy The Best Model
 After the experiment run completes, a summary of all the models and their metrics are shown, including explanations. We have chose the best model i.e VotingEnsemble to deploy using Azure Container Instance(ACI) and enable Authentication. 
