@@ -35,11 +35,12 @@ The screenshot below shows the scenario after running logs.py script which was e
 ![20210211_021819](https://user-images.githubusercontent.com/64837491/107570482-94b2ff00-6c0f-11eb-9041-32dfd5c2f0bf.jpg)
 In details tab of endpoint "Application Insights" has been enabled with REST endpoint.
 ![(22)insight](https://user-images.githubusercontent.com/64837491/107570099-1a827a80-6c0f-11eb-90fd-6d552afff9d1.png) \
-We can also access Application Insights URL to get more insights of the model.After clicking the URL, was can see failed requests, server response time , server requests and availability showing data according to the time.
+We can also access Application Insights URL to get more insights of the model. After clicking the URL, was can see failed requests, server response time , server requests and availability showing data according to the time.
 ![(10)req](https://user-images.githubusercontent.com/64837491/107570736-f2dfe200-6c0f-11eb-8bcc-ac9806ae0f5d.png)
 ### Swagger Documentation
-In this step, we have consumed the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models. The swagger runs on localhost:9000 showing the HTTP API methods and responses for the model.
+In this step, we have consumed the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models. The swagger runs on localhost:9000 showing the HTTP API methods i.e GET and POST and responses for the model. Below, we can see GET method and its responses.
 ![(17)swaggerdocs](https://user-images.githubusercontent.com/64837491/107571670-3ab33900-6c11-11eb-92f7-6dc71c4b15fa.png)
+This is the POST method and its reponses for the model.
 ![20210211_022819](https://user-images.githubusercontent.com/64837491/107571483-f6279d80-6c10-11eb-91d6-3c0ba171cd9c.jpg)
 ![20210211_023646](https://user-images.githubusercontent.com/64837491/107572384-3a676d80-6c12-11eb-9809-8d18673ec9ba.jpg)
 ![20210211_023633](https://user-images.githubusercontent.com/64837491/107572356-2e7bab80-6c12-11eb-8f15-f826656d6dab.jpg)
