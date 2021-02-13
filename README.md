@@ -47,7 +47,7 @@ The swagger runs on the localhost after running swagger.sh and serve.py. Below s
 The serve.py will start a Python server on port 8000.
 ![20210211_023646](https://user-images.githubusercontent.com/64837491/107572384-3a676d80-6c12-11eb-9809-8d18673ec9ba.jpg)
 ### Consume Model Endpoints
-Once the model is deployed, we have uses the endpoint.py script provided to interact with the trained model. The endpoint.py script runs against API producing JSON output(data.json) for model.
+Once the model is deployed, we have used the endpoint.py script provided to interact with the trained model. The endpoint.py script runs against API producing JSON output(data.json) for model.
 ![20210211_024551](https://user-images.githubusercontent.com/64837491/107573335-6a634080-6c13-11eb-8082-eb111568caf3.jpg)
 ### Create, Publish and Consume Pipeline
 The Jupyter Notebook is uploaded to Azure ML studio and the pipleline has been created. We got a bankmarketing dataset with AutoML module in graph section. The steps runs was shown by 'Use RunDetails Widget' in the notebook.
