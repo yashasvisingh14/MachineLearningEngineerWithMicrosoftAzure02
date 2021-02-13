@@ -6,7 +6,7 @@ The steps to be followed :-
 * Authentication
 * [Automated ML Experiment](https://github.com/yashasvisingh14/MachineLearningEngineerWithMicrosoftAzure02/blob/main/README.md#automated-ml-experiment)
 * [Deploy the best model](https://github.com/yashasvisingh14/MachineLearningEngineerWithMicrosoftAzure02/blob/main/README.md#deploy-the-best-model)
-* [Enable logging]()
+* [Enable logging](https://github.com/yashasvisingh14/MachineLearningEngineerWithMicrosoftAzure02/blob/main/README.md#enable-logging)
 * [Swagger Documentation]()
 * [Consume model endpoints]()
 * [Create and publish a pipeline]() 
