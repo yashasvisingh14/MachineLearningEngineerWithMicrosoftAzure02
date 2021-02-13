@@ -57,6 +57,7 @@ In the same pipeline section we can find the pipeline endpoint.
 This shows graph where bankmarketing dataset is connected with AutoML module.
 ![(26)automldataset](https://user-images.githubusercontent.com/64837491/107573878-173dbd80-6c14-11eb-9942-9bb0fe2d2223.png)
 In Endpoint section, we have pipeline endpoint where we can find published pipeline overview.
+![new6](https://user-images.githubusercontent.com/64837491/107860142-a8ef3a00-6e63-11eb-974b-ff5fd7ad5208.png)
 ![new4](https://user-images.githubusercontent.com/64837491/107860095-75141480-6e63-11eb-8bbc-976e51cb8077.png)
 ![new1](https://user-images.githubusercontent.com/64837491/107859533-2c0e9100-6e60-11eb-8282-14b7ad7a6156.png)
 ![(32)final](https://user-images.githubusercontent.com/64837491/107574424-b367c480-6c14-11eb-86f2-c0676b0dfab9.png)
