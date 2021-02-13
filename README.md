@@ -66,7 +66,7 @@ The screenshot of the completed run is provided below.
 ## Improvements in Future
 For this particular project, I have used certain configuration settings for computer cluster like Virtual Machine size, minimum and maximum number of nodes and specific algorithms like in our case classification was given in the lab. By changing these parameters and configuration settings we might get different better models. I believe that we can observe and fill the gap within the dataset to yield better results like dataset can be spread across the year for a better understanding of the customer preferences with the time of the year. 
 ## Screen Recording
-[Screen Recording](https://www.youtube.com/watch?v=ygbqysfLBRo&t=7s) \
+[Click Here](https://youtu.be/RerrIYmUz1g) \
 NOTE - I was not able to directly screen cast so I recorded it
 
 
