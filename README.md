@@ -4,12 +4,12 @@ In this project, I have worked with the Bank Marketing dataset. I have used Azur
 Dataset - https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv  \
 The steps to be followed :-
 * Authentication
-* Automated ML Experiment
-* Deploy the best model
-* Enable logging
-* Swagger Documentation
-* Consume model endpoints
-* Create and publish a pipeline 
+* [Automated ML Experiment]()
+* [Deploy the best model]()
+* [Enable logging]()
+* [Swagger Documentation]()
+* [Consume model endpoints]()
+* [Create and publish a pipeline]() 
 <img width="626" alt="1" src="https://user-images.githubusercontent.com/64837491/107561712-e2763a00-6c04-11eb-8787-4f5a49b28a17.png">
 
 ## Architectural Diagram
