@@ -21,18 +21,21 @@ Below one can get a glimpse of the architectural flow of the whole project :-
 I have created an experiment using Automated ML, configured a compute cluster, and used that cluster to run the experiment. The best model summary shows that VotingEnsemble has the highest accuracy of 91.806% compared to others.
 The screenshot below shows "Registered Dataset" in ML studio showing the Bankmarketing dataset.
 ![(1)Dataset](https://user-images.githubusercontent.com/64837491/107563962-b7d9b080-6c07-11eb-9b3a-3c50a0937585.png) 
-This picture below depicts that Details tab where AutoML experiment has been completed. It also has a brief summary of the model which performed well during the run.  
+This picture below depicts the Details tab AutoML experiment status is shown completed. It also has a brief summary of the model which performed well during the run.  
 ![voting](https://user-images.githubusercontent.com/64837491/107564305-3e8e8d80-6c08-11eb-9ecc-b2facde541df.png)
 Here, we can get a detailed description of the best model and various metrics like accuracy, sampling etc.
 ![voting2](https://user-images.githubusercontent.com/64837491/107564403-5fef7980-6c08-11eb-9c7c-b47cf86833b0.png)
 ### Deploy The Best Model
-After the experiment run completes, a summary of all the models and their metrics are shown, including explanations. We have chose the best model i.e VotingEnsemble to deploy using Azure Container Instance(ACI) and enable Authentication. 
+After the experiment run completes, a summary of all the models and their metrics are shown, including explanations. We have chose the best model i.e VotingEnsemble to deploy using Azure Container Instance(ACI) and enable Authentication. In Endpoints section, we can check our model's deployment state which shows "healthy" state once the deployment has been successfully done and compute type(ACI) on which it was performed.
 ![(21)endpt](https://user-images.githubusercontent.com/64837491/107569299-2a4d8f00-6c0e-11eb-9582-6b8c065dc308.png)
 ### Enable Logging
 After the Best Model is deployed, we have enabled Application Insights(=True) and retrieved logs using code.
 ![20210211_020526](https://user-images.githubusercontent.com/64837491/107569073-e195d600-6c0d-11eb-9a0e-282aac5b1e05.jpg)
+The screenshot below shows the scenario after running logs.py script which was edited to enable "Application Insights" through code.
 ![20210211_021819](https://user-images.githubusercontent.com/64837491/107570482-94b2ff00-6c0f-11eb-9041-32dfd5c2f0bf.jpg)
+In detials tab of endpoint "Application Insights" has been enabled with REST endpoint. We can also access Application Insights URL to get more insights of the model.
 ![(22)insight](https://user-images.githubusercontent.com/64837491/107570099-1a827a80-6c0f-11eb-90fd-6d552afff9d1.png)
+After clicking the URL, was can see failed requests, server response time , server requests and availability showing data according to the time.
 ![(10)req](https://user-images.githubusercontent.com/64837491/107570736-f2dfe200-6c0f-11eb-8bcc-ac9806ae0f5d.png)
 ### Swagger Documentation
 In this step, we have consumed the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models. The swagger runs on localhost:9000 showing the HTTP API methods and responses for the model.
