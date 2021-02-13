@@ -64,7 +64,7 @@ Here, showing RunDetails Widget in Jupyter Notebook after the experiment is comp
 The screenshot of the completed run is provided below.
 ![(32)final](https://user-images.githubusercontent.com/64837491/107574424-b367c480-6c14-11eb-86f2-c0676b0dfab9.png)
 ## Improvements in Future
-For this particular project, I have used certain configuration settings for computer cluster and specific parameters for model given in the lab. By changing certain parameters and settings we can get more effective models resulting in much better accuracy. I believe that we can observe and explore the dataset also to yield better results. 
+For this particular project, I have used certain configuration settings for computer cluster like Virtual Machine size, minimum and maximum number of nodes and specific algorithms like in our case classification was given in the lab. By changing these parameters and configuration settings we might get different better models. I believe that we can observe and fill the gap within the dataset to yield better results like dataset can be spread across the year for a better understanding of the customer preferences with the time of the year. 
 ## Screen Recording
 [Screen Recording](https://www.youtube.com/watch?v=ygbqysfLBRo&t=7s) \
 NOTE - I was not able to directly screen cast so I recorded it
