@@ -50,15 +50,18 @@ The serve.py will start a Python server on port 8000.
 Once the model is deployed, we have used the endpoint.py script provided to interact with the trained model. The endpoint.py script runs against API producing JSON output(data.json) for model.
 ![20210211_024551](https://user-images.githubusercontent.com/64837491/107573335-6a634080-6c13-11eb-8082-eb111568caf3.jpg)
 ### Create, Publish and Consume Pipeline
-The Jupyter Notebook is uploaded to Azure ML studio and the pipleline has been created. We got a bankmarketing dataset with AutoML module in graph section. The steps runs was shown by 'Use RunDetails Widget' in the notebook.
+The Jupyter Notebook is uploaded to Azure ML studio and the pipleline has been created. We got a bankmarketing dataset with AutoML module in graph section. The steps runs was shown by 'Use RunDetails Widget' in the notebook. Below we have pipeline section of ML studio showing that pipeline has been created.
 ![(25)run](https://user-images.githubusercontent.com/64837491/107573690-dc3b8a00-6c13-11eb-9311-a70339f4b369.png)
+In the same pipeline section we can find the pipeline endpoint.
 ![(27)piperun](https://user-images.githubusercontent.com/64837491/107573762-fbd2b280-6c13-11eb-9cbd-36375df446ba.png)
+This shows graph where bankmarketing dataset is connected with AutoML module.
 ![(26)automldataset](https://user-images.githubusercontent.com/64837491/107573878-173dbd80-6c14-11eb-9942-9bb0fe2d2223.png)
+In Endpoint section, we have pipeline endpoint where we can find published pipeline overview.
 ![new3](https://user-images.githubusercontent.com/64837491/107859588-7ee84880-6e60-11eb-98ec-53cf98e0d703.png)
 ![new1](https://user-images.githubusercontent.com/64837491/107859533-2c0e9100-6e60-11eb-8282-14b7ad7a6156.png)
 ![(32)final](https://user-images.githubusercontent.com/64837491/107574424-b367c480-6c14-11eb-86f2-c0676b0dfab9.png)
 ## Improvements in Future
-For this particular project, I have used certain configuration settings for computer cluster and specific parameters for model given in the lab. By changing certain parameters and settings we can get more effective models resulting in much better accuracy. I believe that we can observe and explore the dataset also to yield better results. The visualization of the model using Application Insights and logs will help in increasing the performance.
+For this particular project, I have used certain configuration settings for computer cluster and specific parameters for model given in the lab. By changing certain parameters and settings we can get more effective models resulting in much better accuracy. I believe that we can observe and explore the dataset also to yield better results. 
 ## Screen Recording
 [Screen Recording](https://www.youtube.com/watch?v=ygbqysfLBRo&t=7s) \
 NOTE - I was not able to directly screen cast so I recorded it
