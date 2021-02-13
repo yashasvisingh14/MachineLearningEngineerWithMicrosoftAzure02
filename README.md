@@ -38,12 +38,14 @@ In details tab of endpoint "Application Insights" has been enabled with REST end
 We can also access Application Insights URL to get more insights of the model. After clicking the URL, was can see failed requests, server response time , server requests and availability showing data according to the time.
 ![(10)req](https://user-images.githubusercontent.com/64837491/107570736-f2dfe200-6c0f-11eb-8bcc-ac9806ae0f5d.png)
 ### Swagger Documentation
-In this step, we have consumed the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models. The swagger runs on localhost:9000 showing the HTTP API methods i.e GET and POST and responses for the model. Below, we can see GET method and its responses.
+In this step, we have consumed the deployed model using Swagger. Azure provides a Swagger JSON file for deployed models present in same directory. The swagger runs on localhost:9000 showing the HTTP API methods i.e GET and POST and responses for the model. Below, we can see GET method and its responses.
 ![(17)swaggerdocs](https://user-images.githubusercontent.com/64837491/107571670-3ab33900-6c11-11eb-92f7-6dc71c4b15fa.png)
 This is the POST method and its reponses for the model.
 ![20210211_022819](https://user-images.githubusercontent.com/64837491/107571483-f6279d80-6c10-11eb-91d6-3c0ba171cd9c.jpg)
-![20210211_023646](https://user-images.githubusercontent.com/64837491/107572384-3a676d80-6c12-11eb-9809-8d18673ec9ba.jpg)
+The swagger runs on the localhost after running swagger.sh and serve.py. Below screenshots gives an overview when both files were running. The swagger.sh downloads the latest swagger container and was running on port 9000.
 ![20210211_023633](https://user-images.githubusercontent.com/64837491/107572356-2e7bab80-6c12-11eb-8f15-f826656d6dab.jpg)
+The serve.py will start a Python server on port 8000.
+![20210211_023646](https://user-images.githubusercontent.com/64837491/107572384-3a676d80-6c12-11eb-9809-8d18673ec9ba.jpg)
 ### Consume Model Endpoints
 Once the model is deployed, we have uses the endpoint.py script provided to interact with the trained model. The endpoint.py script runs against API producing JSON output(data.json) for model.
 ![20210211_024551](https://user-images.githubusercontent.com/64837491/107573335-6a634080-6c13-11eb-8082-eb111568caf3.jpg)
